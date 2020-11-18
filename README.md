@@ -1,7 +1,3 @@
-LymphomaSubtype
-================
-Makoto
-17/11/2020
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -22,7 +18,7 @@ doesnt show`
 
 First, I created the skeleton of the package by
 
-``` r
+```{r eval = FALSE}
 library(usethis)
 usethis::create_package(path = LymphomaSubtypes)
 ```
@@ -31,7 +27,7 @@ usethis::create_package(path = LymphomaSubtypes)
 
 I added details to the package using `devtools` and `usethis` packages.
 
-``` r
+``` {r eval = FALSE}
 usethis::use_readme_rmd()      # To create a README.md file
 usethis::use_mit_license()     # To add license
 devtools::document()           # To document and update a package
@@ -43,7 +39,7 @@ usethis::use_package()         # To add dependency
 You can install the development version from
 (GitHub)\[LINK\_FOR\_MY\_GITHUB\] with:
 
-``` r
+``` {r eval = FALSE}
 install.packages("devtools")
 devtools::install_github(FILL_THIS_WITH_MY_GITHUB)
 ```
@@ -52,7 +48,7 @@ devtools::install_github(FILL_THIS_WITH_MY_GITHUB)
 
 This is a basic example which shows you how to solve a common problem:
 
-``` r
+``` {r eval = FALSE}
 library(LymphomaSubtypes)
 lymphoma
 ```
