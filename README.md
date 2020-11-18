@@ -32,12 +32,11 @@ usethis::use_package()         # To add dependency
 
 ## Installation
 
-You can install the development version from
-(GitHub)\[LINK\_FOR\_MY\_GITHUB\] with:
+You can install the development version from [GitHub](ma5ki4/LymphomaSubtype) with:
 
 ``` r
 install.packages("devtools")
-devtools::install_github(FILL_THIS_WITH_MY_GITHUB)
+devtools::install_github(ma5ki4/LymphomaSubtype)
 ```
 
 ## Example
@@ -45,7 +44,7 @@ devtools::install_github(FILL_THIS_WITH_MY_GITHUB)
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(LymphomaSubtypes)
+library(LymphomaSubtype)
 lymphoma
 ```
 

@@ -1,4 +1,4 @@
 library(testthat)
-library(LymphomaSubtypes)
+library(LymphomaSubtype)
 
-test_check("LymphomaSubtypes")
+test_check("LymphomaSubtype")
