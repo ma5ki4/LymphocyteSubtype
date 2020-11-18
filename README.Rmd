@@ -28,7 +28,7 @@ The goal of `LymphomaSubtypes` is to provide an user with an easy breakdown of e
 
 First, I created the skeleton of the package by 
 
-``` r
+```{r eval = FALSE}
 library(usethis)
 usethis::create_package(path = LymphomaSubtypes)
 ```
