@@ -1,12 +1,12 @@
 Package: LymphomaSubtypes
-Title: Provide an user with an easy breakdown of each subtypes of lymphoma
+Title: Provide an user with an easy breakdown of each subtypes of lymphoma.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Makoto",
            family = "Kishida",
            role = c("aut", "cre"),
            email = "first.last@example.com")
-Description: What the package does (one paragraph).
+Description: Provide an user with an easy breakdown of each subtypes of lymphoma. As of Nov 17th, 2020, the data set contains Disease conlumn, which is specific types of disease, and Category column, which is a category of these diseases. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -14,4 +14,9 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
     tibble,
-    testthat
+    testthat,
+    usethis
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

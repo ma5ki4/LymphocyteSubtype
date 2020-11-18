@@ -1,0 +1,37 @@
+---
+title: "vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Goal
+
+The goal of `LymphomaSubtype` is to provide an user with an easy breakdown of each subtypes of lymphoma. As of Nov 17th, 2020, the data set contains 2 columns.
+
+- Disease: Specific types of disease.
+
+- Category: A category of these diseases (Hodgkin lymphoma, B-cell lymphoma, T-cell lymphoma, NK-cell lymphoma).
+
+## Example
+
+```{r eval = FALSE}
+library(LymphomaSubtypes)
+```
+
+```{r eval = FALSE}
+lymphoma
+
+summary(lymphoma)
+```
+
+
