@@ -30,6 +30,14 @@ devtools::document()           # To document and update a package
 usethis::use_package()         # To add dependency
 ```
 
+Then the package was uploaded to the GitHub by creating a repository on GitHub, then running a following code chunk on terminal while you are in the package directory.
+```
+git remote add origin https://github.com/ma5ki4/LymphomaSubtype.git
+git branch -M main
+git push -u origin main
+```
+
+
 ## Installation
 
 You can install the development version from [GitHub](ma5ki4/LymphomaSubtype) with:
