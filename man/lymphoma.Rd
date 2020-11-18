@@ -6,15 +6,17 @@
 \title{Lymphoma Subtype Classification Data}
 \format{
 A data frame with columns:
-\describe{
-\item{Disease}{Subtypes of lymphoma. A character vector.}
-\Item{Category}{A category the disease belong to, Hogdkin lymphoma, B-cell lymphoma, T-cell lymphoma, or NK-cell lymphoma. A factor vector.}
-}
 }
 \usage{
 lymphoma
 }
 \description{
+{
+@param {Disease}{Subtypes of lymphoma. A character vector.}
+@param {Category}{A category the disease belong to, Hogdkin lymphoma, B-cell lymphoma, T-cell lymphoma, or NK-cell lymphoma. A factor vector.}
+}
+}
+\details{
 This data set contains a list of lymphoma subtypes with their characteristics.
 I SHOULD SPECIFY WHERE I GOT THE DATA FROM
 }

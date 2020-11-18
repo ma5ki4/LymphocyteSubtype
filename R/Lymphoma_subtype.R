@@ -4,9 +4,9 @@
 #'  I SHOULD SPECIFY WHERE I GOT THE DATA FROM
 #'
 #' @format A data frame with columns:
-#' \describe{
-#'   \item{Disease}{Subtypes of lymphoma. A character vector.}
-#'   \Item{Category}{A category the disease belong to, Hogdkin lymphoma, B-cell lymphoma, T-cell lymphoma, or NK-cell lymphoma. A factor vector.}
+#' @description {
+#'   @param {Disease}{Subtypes of lymphoma. A character vector.}
+#'   @param {Category}{A category the disease belong to, Hogdkin lymphoma, B-cell lymphoma, T-cell lymphoma, or NK-cell lymphoma. A factor vector.}
 #' }
 #'
 #' @examples
