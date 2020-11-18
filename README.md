@@ -8,11 +8,7 @@
 <!-- badges: end -->
 
 The goal of `LymphomaSubtype` is to provide an user with an easy
-breakdown of each subtypes of lymphoma. The data is based on
-<https://www.llscanada.org/lymphoma/non-hodgkin-lymphoma/diagnosis/nhl-subtypes>
-and <https://www.lymphomacoalition.org/lymphomas/lymphoma-subtypes> as
-of Nov 16th, 2020. `Add more description` `Change the link so that it
-doesnt show`
+breakdown of each subtypes of lymphoma. As of Nov 17th, 2020, the specific disease subtypes are based on [here](https://www.llscanada.org/lymphoma/non-hodgkin-lymphoma/diagnosis/nhl-subtypes) and their categories are based on [here](https://www.lymphomacoalition.org/lymphomas/lymphoma-subtypes).
 
 ## How this data set was created
 
