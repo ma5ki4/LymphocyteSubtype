@@ -19,7 +19,7 @@ doesnt show`
 First, I created the skeleton of the package by
 
 ```r
-library(usethis)
+library("usethis")
 usethis::create_package(path = LymphomaSubtypes)
 ```
 
