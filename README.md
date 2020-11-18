@@ -38,7 +38,7 @@ git push -u origin main
 
 ## Installation
 
-You can install the development version from [GitHub](ma5ki4/LymphomaSubtype) with:
+You can install the development version from [GitHub](https://github.com/ma5ki4/LymphomaSubtype) with:
 
 ``` r
 install.packages("devtools")
