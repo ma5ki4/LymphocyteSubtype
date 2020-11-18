@@ -24,7 +24,7 @@ usethis::create_package(path = LymphomaSubtypes)
 I added details to the package using `devtools` and `usethis` packages.
 
 ``` r
-usethis::use_readme_rmd()      # To create a README.md file
+usethis::use_readme_rmd()      # To create a README.Rmd file
 usethis::use_mit_license()     # To add license
 devtools::document()           # To document and update a package
 usethis::use_package()         # To add dependency
