@@ -1,5 +1,7 @@
 ---
-author: Makoto Kishida
+title: "LymphomaSubtype"
+author: "Makoto"
+date: "17/11/2020"
 output: github_document
 ---
 
