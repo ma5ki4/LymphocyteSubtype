@@ -1,7 +1,8 @@
 #' Lymphoma Subtype Classification Data
 #'
 #' This data set contains a list of lymphoma subtypes with their characteristics.
-#'  I SHOULD SPECIFY WHERE I GOT THE DATA FROM
+#' The source of the data is mentioned in the README.md
+#'
 #'
 #' @format A data frame with columns:
 #' @description {
