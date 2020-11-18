@@ -1,13 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# LymphomaSubtypes
+# LymphomaSubtype
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of `LymphomaSubtypes` is to provide an user with an easy
+The goal of `LymphomaSubtype` is to provide an user with an easy
 breakdown of each subtypes of lymphoma. The data is based on
 <https://www.llscanada.org/lymphoma/non-hodgkin-lymphoma/diagnosis/nhl-subtypes>
 and <https://www.lymphomacoalition.org/lymphomas/lymphoma-subtypes> as
