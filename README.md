@@ -19,8 +19,6 @@ library("usethis")
 usethis::create_package(path = LymphomaSubtypes)
 ```
 
-`Lymphoma` data set was created manually by SOURCE\_OF\_DATA.
-
 I added details to the package using `devtools` and `usethis` packages.
 
 ``` r
