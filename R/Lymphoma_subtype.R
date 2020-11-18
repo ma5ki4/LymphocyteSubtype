@@ -16,10 +16,7 @@
 #'
 #' @export
 #'
-
-library(tidyverse)
-
-lymphoma <- tibble(Disease = c("Nodular sclerosis cHL", "Lymphocyte-rich cHL", "Mixed cellularity cHL", "Lymphocyte-depleted cHL",
+lymphoma <- tibble::tibble(Disease = c("Nodular sclerosis cHL", "Lymphocyte-rich cHL", "Mixed cellularity cHL", "Lymphocyte-depleted cHL",
                                        "Nodular lymphocyte predominant HL", "Diffuse large B-cell lymphoma", "Follicular lymphoma","Mucosa-associated lymphatic tissue lymphoma",
                                        "Chronic lymphocytic lymphoma", "Mantle cell lymphoma", "Mediastinal large B-cell lymphoma", "Lymphoblastic lymphoma",
                                        "Nodal marginal zone B-cell lymphoma", "Splenic marginal zone B-cell lymphoma", "Extranodal marginal zone B-cell lymphoma",
