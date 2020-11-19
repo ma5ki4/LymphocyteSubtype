@@ -16,7 +16,7 @@ First, I created the skeleton of the package by
 
 ```r
 library("usethis")
-usethis::create_package(path = LymphomaSubtypes)
+usethis::create_package(path = LymphomaSubtype)
 ```
 
 I added details to the package using `devtools` and `usethis` packages.
