@@ -42,7 +42,7 @@ You can install the development version from [GitHub](https://github.com/ma5ki4/
 
 ``` r
 install.packages("devtools")
-devtools::install_github(ma5ki4/LymphomaSubtype)
+devtools::install_github("ma5ki4/LymphomaSubtype")
 ```
 
 ## Example
