@@ -23,9 +23,19 @@ I added details to the package using `devtools` and `usethis` packages.
 
 ``` r
 usethis::use_readme_rmd()      # To create a README.Rmd file
-usethis::use_mit_license()     # To add license
-devtools::document()           # To document and update a package
+usethis::use_readme_md()       # To create a README.md file
+
 usethis::use_package()         # To add dependency
+
+usethis::testthat()            # To create a "tests"" folder and testthat.R
+usethis::test()                # To create a function-specific test
+
+usethis::use_mit_license()     # To add MIT license
+
+usethis::use_code_of_conduct() # To create a code of conduct file
+
+devtools::document()           # To document and update a package
+devtools::check()              # To evaluate the package thoroughly 
 ```
 
 Then the package was uploaded to the GitHub by creating a repository on GitHub, then running a following code chunk on terminal while you are in the package directory.
